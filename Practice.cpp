@@ -38,12 +38,7 @@ int main(){
 		node[parent - 'A'].first = left;
 		node[parent - 'A'].second = right;
 	}
-	preorder('A');
-	cout << "\n";
-	inorder('A');
-	cout << "\n";
-	postorder('A');
-	cout << "\n";
+
 	
 	return 0;
 }
